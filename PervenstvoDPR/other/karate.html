@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Студентческий спортивный клуб ДТПА</title>
+    <script>
+        function show(state)
+        {
+        document.getElementById('form').style.display = state;	
+        document.getElementById('gray').style.display = state; 		
+        }	
+    </script>
+</head>
+<body>
+    <div class="Header">
+        <div id="div"></div>
+        <a href="D:/PervenstvoDPR/index.html">
+            <img src="D:\PervenstvoDPR\img\Logotop.png" alt="#" class="logo_fon">
+        </a>
+        <a href="D:/PervenstvoDPR/index.html">
+            <button class="news_top" type="button">Новости</button>
+        </a>
+        <a href="D:/PervenstvoDPR/index.html">
+            <button class="section_top" type="button">Секции</button>
+        </a>  
+        <a href="D:/PervenstvoDPR/index.html">
+            <button class="treners_top" type="button">Тренера</button>
+        </a> 
+        <a href="D:/PervenstvoDPR/index.html">
+            <button class="time_top" type="button">Расписание</button>
+        </a>  
+        <a href="D:/PervenstvoDPR/index.html">
+            <button class="mp_top" type="button">Мероприятия</button>
+        </a>  
+        <a href="https://disk.yandex.ru/d/2VMxgjTGdZl9BQ" target="_blank">
+            <button class="dokuments_top" type="button">Документы</button>
+        </a>   
+            <button class="login_top" onclick="show('block')">Войти</button>
+            <a href="#" onclick="show('block')">
+                <img src="D:\PervenstvoDPR\img\logohuman.png" alt="#" class="logo_top">  
+            </a>   
+    </div>
+    <div id="gray" onclick="show('none')"></div>
+        <div id="form">
+                <img src="D:\PervenstvoDPR\img\back.png" alt="#" onclick="show('none')" id="back">
+            <div class="logup">
+                <h2>Регистрация</h2>
+                <form method="POST" action="">
+                    <input type="text" placeholder="Имя" name="name1" class="input">
+                    <input type="text" placeholder="Фамилия" name="name2" class="input">
+                    <input type="email" placeholder="Email" name="email1" class="input">
+                    <input type="password" placeholder="Пароль" name="pass1" class="input">
+                    <input type="password" placeholder="Подтвердите пароль" name="pass2" class="input">
+                </form>
+            </div>
+        </div> 
+        <div class="kickboxinginf">
+            <h2 class="information">Подробная информация о карате</h2>
+            <img src="D:\\PervenstvoDPR\\img\\karatesection.png" alt="#" class="img">
+            <p class="text">Каратэ — это традиционное японское боевое искусство, которое включает удары руками и ногами, блоки и приёмы самообороны. В секциях каратэ особое внимание уделяется дисциплине, уважению к противнику и духовному развитию, что делает этот вид спорта идеальным для детей и подростков, а также взрослых, которые стремятся к самосовершенствованию.</p>
+        </div>

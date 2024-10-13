@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Студентческий спортивный клуб ДТПА</title>
+    <script>
+            function show(state)
+            {
+            document.getElementById('form').style.display = state;	
+            document.getElementById('gray').style.display = state; 		
+            }	
+        </script>
+</head>
+<body>
+        <div class="Header">
+            <div id="div"></div>
+            <a href="index.html">
+                <img src="img/Logotop.png" alt="#" class="logo_fon">
+            </a>
+            <a href="#news">
+                <button class="news_top" type="button">Новости</button>
+            </a>
+            <a href="#section">
+                <button class="section_top" type="button">Секции</button>
+            </a>  
+            <a href="#treners">
+                <button class="treners_top" type="button">Тренера</button>
+            </a> 
+            <a href="#times">
+                <button class="time_top" type="button">Расписание</button>
+            </a>  
+            <a href="#mp">
+                <button class="mp_top" type="button">Мероприятия</button>
+            </a>  
+            <a href="https://disk.yandex.ru/d/2VMxgjTGdZl9BQ" target="_blank">
+                <button class="dokuments_top" type="button">Документы</button>
+            </a>   
+                <button class="login_top" onclick="show('block')">Войти</button>
+                <a href="#" onclick="show('block')">
+                    <img src="img/logohuman.png" alt="#" class="logo_top">  
+                </a>   
+        </div>
+        <div id="gray" onclick="show('none')"></div>
+            <div id="form">
+                    <img src="img/back.png" alt="#" onclick="show('none')" id="back">
+                <div class="logup">
+                    <h2>Регистрация</h2>
+                    <form method="POST" action="">
+                        <input type="text" placeholder="Имя" name="name1" class="input">
+                        <input type="text" placeholder="Фамилия" name="name2" class="input">
+                        <input type="email" placeholder="Email" name="email1" class="input">
+                        <input type="password" placeholder="Пароль" name="pass1" class="input">
+                        <input type="password" placeholder="Подтвердите пароль" name="pass2" class="input">
+                    </form>
+                </div>
+            </div> 
+        <h1 class="club_dtpa">Студенческий спортивный клуб DTPA</h1>
+        <div id="news"></div>
+        <div class="mejdy"></div>
+            <div class="figure_news1"></div>
+            <div class="text_news"></div>
+            <p class="ptext_news">НОВОСТИ</p>
+            <div class="figure_news2"></div>
+        </div>
+        <div class="news_section">
+            <div class="card_news1"> 
+                <p class="newscardtop_text">Новости кикбоксинга</p>
+                    <img src="img/kickboxing.png" alt="#" class="kickboxing_png">
+                    <p class="newscard_text">В эту субботу в студенческом спортивном клубе "DTPA"
+                         прошли захватывающие соревнования по кикбоксингу, собравшие
+                          атмосферу борьбы и спортивного духа под одной крышей. В зале царила
+                           напряжённая атмосфера ожидания, когда участники из разных уголков города
+                            собрались, чтобы продемонстрировать свои навыки и силу. </p>
+            </div>
+            <div class="card_news2"> 
+                <p class="newscardtop_text">Новости каратэ</p>
+                    <img src="img/karate.png" alt="#" class="karate_png">
+                    <p class="newscard_text">В следующий четверг в студенческом спортивном
+                        клубе "DTPA" состоятся долгожданные соревнования по каратэ, которые привлекут
+                        внимание как начинающих спортсменов, так и опытных мастеров этого
+                        боевого искусства. Участники из различных клубов региона будут
+                        сражаться за титул сильнейшего, демонстрируя техники, выработанные
+                        годами тренировок. </p>
+            </div>
+            <div class="card_news3"> 
+                <p class="newscardtop_text">Новые правила проведения турниров ММА</p>
+                    <img src="img/mma.png" alt="#" class="mma_png">
+                    <p class="newscard_text">С 1 ноября вступают в силу
+                        новые правила проведения турниров по ММА, направленные на
+                        повышение безопасности спортсменов и улучшение зрелищности боёв.
+                        Среди ключевых изменений — ужесточение требований к экипировке бойцов, в
+                        частности, обязательное использование более прочных защитных шлемов
+                        на этапе соревнований. </p>
+                    </div>
+        <div class="mejdy">
+            <div class="figure_section1"></div>
+            <div class="text_section"></div>
+            <p class="ptext_section" id="section">СЕКЦИИ</p></div>
+            <div class="figure_section2"></div>
+        </div>
+        <div class="prebutton">
+            <div class="kickboxing_section">
+                <img src="img/kickbixingsection.png" alt="#" class="kickboxingsection_png">
+            </div>
+            <div class="karatesection_section">
+                <img src="img/karatesection.png" alt="#" class="karatesection_png">
+            </div>
+            <div class="mmasection_section">
+                <img src="img/mmasection.png" alt="#" class="mmasection_png">
+            </div>
+        </div>
+        <a href="other/kickboxing.html"><button class="sectionbutton" type="button" >Подробнее</button></a>
+        <a href="other/karate.html"><button class="sectionbutton1" type="button" >Подробнее</button></a>
+        <a href="other/mma.html"><button class="sectionbutton2" type="button" >Подробнее</button></a>
+        </div>
+        <div class="mejdy">
+            <div class="figure_treners1"></div>
+            <div class="text_treners"></div>
+            <p class="ptext_treners" id="treners">ТРЕНЕРЫ</p></div>
+            <div class="figure_treners2"></div>
+        </div>
+        <div class="treners">
+            <img src="img/trenerkickboxing.png" alt="#" class="trener_kickboxing_png">
+            <p class="text_kickboxing">Манучар Гурамович </br>(Тренер по кикбоксингу)</p>
+            <img src="img/trenerkarate.png" alt="#" class="trener_karate_png">
+            <p class="text_karate">Андрей Филиппов</br>(Тренер по каратэ)</p>
+            <img src="img/trenermma.png" alt="#" class="trener_mma_png">
+            <p class="text_mma">  Сулейман Сулейманов</br>(Тренер по ММА)</p>
+        </div>
+        <div class="mejdy">
+            <div class="figure_times1"></div>
+            <div class="text_times"></div>
+            <p class="ptext_times" id="times">РАСПИСАНИЕ</p></div>
+            <div class="figure_times2"></div>
+        </div>
+        <div class="times_selection">
+            <table class="table_times">
+                <tr class="stroke_table">
+                    <th class="top_table">Пн</th>
+                    <th class="top_table">Вт</th>
+                    <th class="top_table">Ср</th>
+                    <th class="top_table">Чт</th>
+                    <th class="top_table">Пт</th>
+                    <th class="top_table">Сб</th>
+                    <th class="top_table">Вс</th>
+                </tr>
+                <tr class="stroke_table">
+                    <td class="point_table"><p class="table_time">12.00</p></br><p class="table_text">Карате</p></td>
+                    <td class="point_table"><p class="table_time">12.00</p></br><p class="table_text">Кикбоксинг</p></td>
+                    <td class="point_table"><p class="table_time">12.00</p></br><p class="table_text">ММА</p></td>
+                    <td class="point_table"><p class="table_time">12.00</p></br><p class="table_text">Карате</p></td>
+                    <td class="point_table"><p class="table_time">12.00</p></br><p class="table_text">Кикбоксинг</p></td>
+                    <td class="point_table"><p class="table_time">12.00</p></br><p class="table_text">ММА</p></td>
+                    <td class="point_table"><p class="table_time">12.00</p></br><p class="table_text">Карате</p></td>
+                </tr>
+                <tr class="stroke_table">
+                    <td class="point_table"><p class="table_time">14.00</p></br><p class="table_text">Карате</p></td>
+                    <td class="point_table"><p class="table_time">14.00</p></br><p class="table_text">Кикбоксинг</p></td>
+                    <td class="point_table"><p class="table_time">14.00</p></br><p class="table_text">ММА</p></td>
+                    <td class="point_table"><p class="table_time">14.00</p></br><p class="table_text">Карате</p></td>
+                    <td class="point_table"><p class="table_time">14.00</p></br><p class="table_text">Кикбоксинг</p></td>
+                    <td class="point_table"><p class="table_time">14.00</p></br><p class="table_text">ММА</p></td>
+                    <td class="point_table"><p class="table_time">14.00</p></br><p class="table_text">Кикбоксинг</p></td>
+   
+                </tr>
+                <tr class="stroke_table">
+                    <td class="point_table"><p class="table_time">16.00</p></br><p class="table_text">Карате</p></td>
+                    <td class="point_table"><p class="table_time">16.00</p></br><p class="table_text">Кикбоксинг</p></td>
+                    <td class="point_table"><p class="table_time">16.00</p></br><p class="table_text">ММА</p></td>
+                    <td class="point_table"><p class="table_time">16.00</p></br><p class="table_text">Карате</p></td>
+                    <td class="point_table"><p class="table_time">16.00</p></br><p class="table_text">Кикбоксинг</p></td>
+                    <td class="point_table"><p class="table_time">16.00</p></br><p class="table_text">ММА</p></td>
+                    <td class="point_table"><p class="table_time">16.00</p></br><p class="table_text">ММА</p></td>
+             </tr>
+            </table>
+        </div>
+        <div class="mejdy">
+            <div class="figure_mp1"></div>
+            <div class="text_mp"></div>
+            <p class="ptext_mp" id="mp">МЕРОПРИЯТИЯ</p></div>
+            <div class="figure_mp2"></div>
+        <p class="mp1_text">В предстоящие выходные состоится ежегодный всероссийский турнир по “Каратэ WKF”.Он соберёт под одной крышей лучших бойцов.</p>
+        <img src="img/mp1.png" alt="#" class="mp1_png">
+        <p class="mp2_text">Через две недели после турнира по каратэ состоится долгожданный глобальный турнир по “Кикбоксингу”.
+            Участники будут соревноваться в интенсивных поединках, демонстрируя свою технику и выносливость.</p>
+            <img src="img/mp2.png" alt="#" class="mp2_png">
+        <div class="footer">
+            <p class="addres">Мы здесь</br>Донецк, Горького 163</p>
+            <div class="maps"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2dbc0cc0c3490d671c41afda521a58a49084bdcc0a5de49e8fc9386f904d8b0f&amp;source=constructor"
+            frameborder="0"></iframe> </div>
+            <p class="contacts">Контакты</p>
+            <p class="contact">+7(949)999-99-99</br>
+            indo@gymdtpa.ru</br>
+            пн-пт 08:00-23:00</br>
+            сб-вс 08:00-22:00</p>
+            <a href="https://telegram.org/" class="teleg_png" target="_blank"><img src="img/telegram.png" width="175%" alt="#"></a>
+            <a href="https://vk.com/" class="vk_png" target="_blank"><img src="img/vk.png" alt="#" width="130%"></a>
+            <a href="https://instagram.com" class="insta_png" target="_blank"><img src="img/insta.png" alt="#" width="160%"></a>
+        </div>
+    </body>
+</html>
